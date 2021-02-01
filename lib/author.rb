@@ -14,4 +14,9 @@ class Author
   def posts
     @posts
   end
+
+  def post_count
+    @posts.length
+  end
+
 end
