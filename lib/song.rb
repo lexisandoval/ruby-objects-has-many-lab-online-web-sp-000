@@ -13,5 +13,9 @@ class Song
     self.artist.name
   end
 
+  def all
+    @@all
+  end
+
 
 end
